@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+  }
+}
+
+.dark .react-select__menu {
+  background-color: #1f2937 !important;
+  border: 1px solid #374151 !important;
+}
+.dark .react-select__option:hover,
+.dark .react-select__option--is-focused {
+  background-color: #374151 !important;
+}
+.dark .react-select__single-value,
+.dark .react-select__input,
+.dark .react-select__placeholder {
+  color: #f3f4f6 !important;
+}
+.dark .react-select__control {
+  background-color: transparent !important;
+  border-color: #4b5563 !important;
+}

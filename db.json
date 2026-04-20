@@ -1,0 +1,208 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "email": "admin@protask.com",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "name": "Bhautik",
+      "email": "bhautik@protask.com",
+      "role": "user",
+      "password": "bhautik123",
+      "id": "FYnqzAb7sVA"
+    },
+    {
+      "name": "John",
+      "email": "john@protask.com",
+      "role": "user",
+      "password": "john123",
+      "id": "IIFzvLGfqD0"
+    }
+  ],
+  "projects": [
+    {
+      "title": "Website Redesign",
+      "description": "Revamping the corporate website with Tailwind CSS.",
+      "status": "on-hold",
+      "startDate": "2024-01-01T00:00:00.000Z",
+      "assigneeIds": [
+        "1",
+        "IIFzvLGfqD0",
+        "FYnqzAb7sVA"
+      ],
+      "id": "1"
+    },
+    {
+      "title": "Mobile App Launch",
+      "description": "Releasing the iOS and Android application.",
+      "status": "on-hold",
+      "startDate": "2024-03-15T00:00:00.000Z",
+      "assigneeIds": [
+        "1",
+        "IIFzvLGfqD0"
+      ],
+      "id": "2"
+    },
+    {
+      "title": "Database Migration",
+      "description": "Moving to PostgreSQL for better performance.",
+      "status": "active",
+      "startDate": "2024-02-10T00:00:00.000Z",
+      "assigneeIds": [
+        "1",
+        "FYnqzAb7sVA"
+      ],
+      "id": "3"
+    },
+    {
+      "title": "Protask default",
+      "description": "Default project for all users",
+      "status": "active",
+      "startDate": "2026-03-31T08:01:18.007Z",
+      "dueDate": "2027-03-31T08:01:18.007Z",
+      "assigneeIds": [
+        "1",
+        "FYnqzAb7sVA",
+        "IIFzvLGfqD0",
+        "QbXVZOqHfzY"
+      ],
+      "id": "zxKnLv3idb4"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "Design Mockups",
+      "description": "Create Figma mockups for the new homepage.",
+      "projectId": "1",
+      "assigneeIds": [
+        "1"
+      ],
+      "priority": "high",
+      "status": "todo",
+      "startDate": "2026-03-31T07:32:11.061Z",
+      "dueDate": "2026-04-15T00:00:00.000Z",
+      "id": "1"
+    },
+    {
+      "title": "Frontend Implementation",
+      "description": "Convert mockups to React components.",
+      "projectId": "1",
+      "assigneeIds": [
+        "FYnqzAb7sVA"
+      ],
+      "priority": "medium",
+      "status": "in-progress",
+      "startDate": "2026-03-31T06:20:13.211Z",
+      "dueDate": "2026-04-15T00:00:00.000Z",
+      "id": "2"
+    },
+    {
+      "title": "User Testing",
+      "description": "Conduct A/B testing on the new design.",
+      "projectId": "1",
+      "assigneeIds": [
+        "FYnqzAb7sVA"
+      ],
+      "priority": "low",
+      "status": "todo",
+      "startDate": "2026-03-31T06:20:13.211Z",
+      "dueDate": "2026-04-15T00:00:00.000Z",
+      "id": "3"
+    },
+    {
+      "title": "Setup CI/CD",
+      "description": "Configure GitHub Actions pipeline.",
+      "projectId": "2",
+      "assigneeIds": [
+        "IIFzvLGfqD0"
+      ],
+      "priority": "high",
+      "status": "done",
+      "startDate": "2026-03-31T06:20:13.211Z",
+      "dueDate": "2026-04-15T00:00:00.000Z",
+      "id": "4"
+    },
+    {
+      "title": "App Store Approval",
+      "description": "Submit builds to Apple and Google.",
+      "projectId": "2",
+      "assigneeIds": [
+        "IIFzvLGfqD0"
+      ],
+      "priority": "high",
+      "status": "todo",
+      "startDate": "2026-03-31T06:20:13.211Z",
+      "dueDate": "2026-04-15T00:00:00.000Z",
+      "id": "5"
+    },
+    {
+      "title": "Marketing Assets",
+      "description": "Prepare screenshots and descriptions.",
+      "projectId": "2",
+      "assigneeIds": [
+        "1"
+      ],
+      "priority": "medium",
+      "status": "todo",
+      "startDate": "2026-03-31T06:20:13.211Z",
+      "dueDate": "2026-04-15T00:00:00.000Z",
+      "id": "6"
+    },
+    {
+      "title": "Backup Existing Data",
+      "description": "Ensure no data loss during migration.",
+      "projectId": "3",
+      "assigneeIds": [
+        "1"
+      ],
+      "priority": "high",
+      "status": "done",
+      "startDate": "2026-03-31T06:20:13.211Z",
+      "dueDate": "2026-04-15T00:00:00.000Z",
+      "id": "7"
+    },
+    {
+      "title": "Schema Optimization",
+      "description": "Add indexes to large tables.",
+      "projectId": "3",
+      "assigneeIds": [
+        "IIFzvLGfqD0"
+      ],
+      "priority": "medium",
+      "status": "done",
+      "startDate": "2026-03-31T06:20:13.211Z",
+      "dueDate": "2026-04-15T00:00:00.000Z",
+      "id": "8"
+    },
+    {
+      "title": "Query Testing",
+      "description": "Verify complex queries perform well.",
+      "projectId": "3",
+      "assigneeIds": [
+        "IIFzvLGfqD0"
+      ],
+      "priority": "medium",
+      "status": "done",
+      "startDate": "2026-03-31T06:20:13.211Z",
+      "dueDate": "2026-04-15T00:00:00.000Z",
+      "id": "9"
+    },
+    {
+      "title": "Final Switchover",
+      "description": "Redirect traffic to the new database.",
+      "projectId": "3",
+      "assigneeIds": [
+        "IIFzvLGfqD0"
+      ],
+      "priority": "high",
+      "status": "review",
+      "startDate": "2026-03-31T06:20:13.211Z",
+      "dueDate": "2026-04-15T00:00:00.000Z",
+      "id": "10"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
