@@ -155,6 +155,13 @@ export default function Users() {
   };
 
   const handleDelete = async (userId) => {
+    const userToDelete = users.find(u => u.id === userId);
+    
+    if (userToDelete?.role === 'admin') {
+      toast.error('Admin users cannot be deleted');
+      return;
+    }
+
     if (!window.confirm('Are you sure you want to delete this user?')) return;
 
     try {
