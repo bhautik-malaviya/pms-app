@@ -98,7 +98,6 @@ export default function Login() {
 
         <div className="mt-6 text-center text-sm text-gray-500 dark:text-gray-400">
           <p>Admin: admin@protask.com / admin123</p>
-          <p>User: bhautik@protask.com / bhautik123</p>
           <p className="mt-2">Don't have an account? <Link to="/signup" className="text-blue-600 dark:text-blue-400 font-medium hover:underline">Sign up</Link></p>
         </div>
       </div>
