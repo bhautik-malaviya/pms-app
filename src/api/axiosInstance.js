@@ -3,7 +3,7 @@ import { store } from '../store';
 import { logout } from '../store/authSlice';
 
 const axiosInstance = axios.create({
-  baseURL: 'https://pms-api-production-8829.up.railway.app',
+  baseURL: import.meta.env.VITE_API_URL,
 });
 
 axiosInstance.interceptors.request.use(
