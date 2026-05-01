@@ -1,6 +1,6 @@
-# ProTask Project Manager
+# PMS App
 
-ProTask is a modern, responsive project and task management application built with React, Tailwind CSS, and Redux Toolkit. It allows teams to track projects, assign tasks, and monitor progress through an intuitive dashboard and dedicated management views.
+PMS app is a modern, responsive project and task management application built with React, Tailwind CSS, and Redux Toolkit. It allows teams to track projects, assign tasks, and monitor progress through an intuitive dashboard and dedicated management views.
 
 ## Features
 
