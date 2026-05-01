@@ -28,19 +28,13 @@ PMS app is a modern, responsive project and task management application built wi
    npm install
    ```
 
-2. **Start the Mock Backend (JSON Server)**
-   In a separate terminal, start the database on port 3001:
-   ```bash
-   npx json-server --watch db.json --port 3001
-   ```
-
-3. **Start the React Development Server**
+2. **Start the React Development Server**
    In another terminal, run Vite on port 5173:
    ```bash
    npm run dev
    ```
 
-4. **Access the Application**
+3. **Access the Application**
    Open `http://localhost:5173` in your browser. 
    
    **Test Credentials:**
